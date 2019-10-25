@@ -4,4 +4,8 @@ linters:
 files:
     ignore:
         - 'reset-styles.css'
+        - 'styles.scss'
+fixers:
+    enable: true
+
         

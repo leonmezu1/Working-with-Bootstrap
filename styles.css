@@ -1,0 +1,30 @@
+.container {
+  border: 1px solid red; }
+
+.row {
+  border: 1px solid green;
+  font-size: 13px;
+  border: lightcoral; }
+
+.row > * {
+  border: 1px solid blue;
+  width: 100px; }
+
+.col {
+  background-color: lightcoral; }
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.otra {
+  display: block;
+  background: -webkit-gradient(linear, left top, left bottom, from(blue), to(white));
+  background: linear-gradient(blue, white);
+  width: 100%; }
+
+nav {
+  height: auto; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -2,6 +2,6 @@ html {
   font-size: 16px; }
 
 body {
-  height: 1000px; }
+  height: autopx; }
 
 /*# sourceMappingURL=styles.css.map */

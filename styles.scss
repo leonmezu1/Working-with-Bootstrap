@@ -1,32 +1,7 @@
-.container {
-  border: 1px solid red;
+html {
+  font-size: 16px;
 }
 
-.row {
-  border: 1px solid green;
-  font-size: 13px;
-  border: lightcoral;
-}
-
-.row > * {
-  border: 1px solid blue;
-  width: 100px;
-}
-
-.col {
-  background-color: lightcoral;
-}
-
-.contenedor {
-  display: flex;
-}
-
-.otra {
-  display: block;
-  background: linear-gradient(blue, white);
-  width: 100%;
-}
-
-nav {
-  height: auto;
+body {
+  height: 1000px;
 }

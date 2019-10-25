@@ -12,11 +12,62 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
 
-  <title>Hello, world!</title>
+  <title>Blog personal de prueba!</title>
 </head>
 
 <body>
-  
+
+  <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <strong>Leonardo</strong> Mezu
+      </a>
+      <button type="button "class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal"
+        aria-expanded="false" aria-label="Desplegar menu de navegacion">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu-principal">
+        <ul class="navbar-nav ml-auto">
+          <li class="navitem"><a href="#" class="nav-link active">Inicio</a></li>
+          <li class="navitem"><a href="#" class="nav-link">¿Quien Soy?</a></li>
+          <li class="navitem"><a href="#" class="nav-link disabled">Proyectos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Quien soy-->
+  <section class="quien-soy py-4 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6">
+          <img src="images/desarrollador.svg" alt="desarrollador" class="img-fluid mb-4">
+        </div>
+        <div class="col-12 col-md-6 text-center">
+          <h1 class="display-4 font-weight-bold text-primary">¿Quien Soy?</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque laborum cum quos quam quae numquam asperiores, minus illo omnis nobis, accusamus quibusdam modi unde ratione tempora, expedita esse illum quia?</p>
+          <a href="#" class="btn btn-primary btn-lg">Leer mas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion Filosofia-->
+
+  <section class="filosofia py-4 bg-primary text-center text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img src="images/avatar.png" alt="avatar" width="260" height="auto" class="img-fluid rounded-circle mb-4">
+          <p class="h2 mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis similique commodi, molestiae saepe assumenda doloribus et sed voluptates alias natus tempora fugiat, accusantium autem repudiandae. Vel totam quam accusantium?</p>
+          <p class="h4 font-italic">- Leonardo Mezu</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mis proyectos-->
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

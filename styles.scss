@@ -1,3 +1,32 @@
+$principal: #ff401c;
+
+.bg-primary {
+  background-color: $principal !important;
+}
+
+.text-primary {
+  color: $principal !important;
+}
+
+.btn-primary {
+  background-color: $principal !important;
+  border-color: darken($principal, 10%) !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba($principal, 0.5) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: darken($principal, 10%) !important;
+}
+
+.btn-primary:active {
+  background-color: darken($principal, 20%) !important;
+  background-color: darken($principal, 30%) !important;
+}
+
 html {
   font-size: 16px;
 }
@@ -8,4 +37,8 @@ body {
 
 .card {
   margin: 2rem 0;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px #0c0c0c3b;
 }
